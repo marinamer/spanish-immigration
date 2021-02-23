@@ -8,16 +8,16 @@ import geopy.distance
 
 
 #IMPORT RAW DATABASES
-immigration = pd.read_csv("../24290bd.csv", sep = "\t", encoding = "ISO-8859-1")
+immigration = pd.read_csv("24290bd.csv", sep = "\t", encoding = "ISO-8859-1")
 
 
-economy = pd.read_csv("../economy.csv", thousands=',')
+economy = pd.read_csv("economy.csv", thousands=',')
 
-spain_economy = pd.read_csv("../spain economy.csv")
+spain_economy = pd.read_csv("spain economy.csv")
 
-distances = pd.read_csv("../worldcities.csv")
+distances = pd.read_csv("worldcities.csv")
 
-conflict = pd.read_csv("../ConflictRecurrenceDatabase.csv")
+conflict = pd.read_csv("ConflictRecurrenceDatabase.csv")
 
 # Rename columns, cleaning 
     # Immigration
